@@ -285,13 +285,8 @@ div.content:last-of-type table td {
     }
     
     body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--Rose-50);
-        overflow: hidden;
-        height: 100vh;
-
+        background-color: var(--Stone-100);
+        height: 100%;
     }
 
     html {
@@ -302,13 +297,11 @@ div.content:last-of-type table td {
         min-width: 600px;
         width: 80%;
         max-width: 800px;
-        max-height: 90vh;
-        overflow-y: auto;
         border: none;
         border-radius: 30px;
         background-color: white;
-        height: fit-content;
-        scrollbar-width: thin;
+        margin: 200px auto;
+
     }
     
     header img {
